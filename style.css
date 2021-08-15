@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --cor00: #01161E;
+  --cor01: #2A9D8F;
+  --cor02: #006BA6;
+  --cor03: #6ecefa;
+  --cor04: #000c2c;
+  --cor05: #063538;
+}
+
+body {
+  background-color: var(--cor04);
+}
+
+header {
+  background-image:linear-gradient(to top, var(--cor02), var(--cor03));
+  color: white;
+  font-family: "Comfortaa";
+  padding-bottom: 10px;
+  padding-top: 40px;
+  min-height: 150px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.527);
+}
+
+header > h1 {
+  text-align: center;
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.527);
+}
+
+header > p {
+  text-align: center;
+  font-size: 1em;
+  font-weight: 400;
+  padding: 0px 0px 25px 20px;
+  max-width: 500px;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+nav a {
+  padding: 8px;
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+header a:hover {
+  color: var(--cor04);
+  transition: 0.4s;
+  text-decoration: wavy;
+  font-weight: 700;
+}
+
+main {
+  background-color: white;
+  min-width: 300px;
+  max-width: 1000px;
+  margin: auto;
+  margin-bottom: 30px;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.527);
+  padding: 20px;
+  text-align: justify;
+}
+
+main  h1 {
+  font: Normal 700 2em "Comfortaa", sans-serif;
+  color: var(--cor00);
+}
+
+main p{
+  color:black;
+  margin: 20px 0px 15px 0px;
+  font: normal 1em sans-serif;
+  text-indent: 15px;
+  line-height: 1.5em;
+}
+
+p#dois {
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+main a {
+  color: var(--cor01);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main a:hover {
+  color: var(--cor05);
+  font-weight: bolder;
+  text-decoration: underline;
+  transition: 0.4s;
+}
+
+main img {
+  width: 100%;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+  border-radius: 10px;
+}
+
+main h3 {
+  font: Normal 400 1.5em "Comfortaa", sans-serif;
+  color: #063538;
+}
+
+div#video {
+  background-color: var(--cor02);
+  margin: 0px -20px 30px -20px;
+  padding: 20px;
+  padding-bottom: 57.5%;
+  position: relative;
+}
+
+div#video > iframe {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+}
+
+aside {
+  margin: 15px 0px 18px 0px;
+  padding: 20px;
+  background-color: var(--cor05);
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.527);
+  font-family: Arial, Helvetica, sans-serif;
+}
+main h4 {
+  font: normal 300 1.2em "Comfortaa", sans-serif;
+  text-decoration: underline;
+  color: var(--cor01)
+}
+
+main h4#i {
+  margin-top: 15px;
+}
+
+aside > h3 {
+  font-size: 1.2em;
+  font-weight: 300;
+  color: white;
+  background-color: var(--cor00);
+  padding: 15px 10px 10px 10px;
+  margin: -20px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+aside > p {
+  color: white;
+  margin-top: 1.4em;
+  margin-bottom: 1.2em;
+  font-size: 1em;
+  padding-top: 10px;
+}
+
+aside > p#fim {
+  font: Normal 1em "Comfortaa", sans-serif;
+  margin-top: 20px;
+  padding-bottom: 0px;
+}
+
+aside > p#fim a {
+  color: var(--cor03);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+aside > p#fim a:hover {
+  color: var(--cor02);
+  transition: 0.4s;
+}
+
+aside > ul {
+  list-style-type: "\1F30A\00A0\00A0";
+  list-style-position: inside;
+  columns: 2;
+  color: white;
+  margin: auto;
+}
+
+aside > ul > li {
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+footer {
+  background-color: var(--cor00);
+  margin: auto;
+  padding: 10px 0px;
+  text-align: center;
+  width: 100%;
+}
+
+footer > p {
+  font: normal 700 1em "Comfortaa", sans-serif;
+  color: aliceblue;
+}
+
+footer > p > a {
+  text-decoration: none;
+  color: var(--cor03);
+}
+
+footer > p > a:hover {
+ color: var(--cor01);
+ text-decoration: underline;
+ transition: 00.4s;
+}
